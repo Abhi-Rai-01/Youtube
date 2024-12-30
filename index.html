@@ -6,8 +6,60 @@
     <title>PW Institute of Innovation - Youtube</title>
     <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
     <link rel="shortcut icon" href="public/images/youtube_logo_icon_168737.ico">
+    <style type="text/css">
+        body{
+            font-family: arial;
+        }
+        .header{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .bi-list{
+            font-size: 20px;
+        }
+        .bi-youtube{
+            margin-right: 110px;
+        }
+        .searching-tool{
+            border: 1px solid gray;
+            padding: 10px;
+        }
+        .search{
+            padding: 10px 470px 10px 10px;
+            border-right: 1px solid gray;
+        }
+        .bi-search{
+            padding: 10px 10px 10px 20px;
+        }
+        .profile-pic{
+            border-radius: 50%;
+        }
+    </style>
 </head>
 <body>
-    
+
+    <section class="header">
+        <span class="bi bi-list"></span>
+
+        <span class="bi bi-youtube">
+            <span class="brand-name">Youtube<sup class="brand-name-sup">IN</sup></span>
+        </span>
+
+        <span class="searching-tool">
+            <span class="search">Search</span><span class="bi bi-search"></span>
+        </span>
+        
+        <span class="bi bi-mic-fill"></span>
+        
+        <span>
+            <span class="bi bi-plus-lg"></span>
+            <span><b>Create</b></span>
+        </span>
+        
+        <span class="bi bi-bell"><sup>9+</sup></span>
+        
+        <span><img src="public/images/ytprofilepic.jpg" height="25" class="profile-pic"></span>
+    </section>
 </body>
 </html>
