@@ -5,45 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PW Institute of Innovation - Youtube</title>
     <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
     <link rel="shortcut icon" href="public/images/youtube_logo_icon_168737.ico">
-    <style type="text/css">
-        body{
-            font-family: arial;
-        }
-        .header{
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-        }
-        .bi-list{
-            font-size: 20px;
-        }
-        .bi-youtube{
-            margin-right: 110px;
-        }
-        .searching-tool{
-            border: 1px solid gray;
-            padding: 10px;
-        }
-        .search{
-            padding: 10px 470px 10px 10px;
-            border-right: 1px solid gray;
-        }
-        .bi-search{
-            padding: 10px 10px 10px 20px;
-        }
-        .profile-pic{
-            border-radius: 50%;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+    <!-- Header section -->
     <section class="header">
         <span class="bi bi-list"></span>
 
-        <span class="bi bi-youtube">
-            <span class="brand-name">Youtube<sup class="brand-name-sup">IN</sup></span>
+        <span class="youtube-branding">
+            <span class="youtube-logo"><img src="public/images/youtube_logo_icon_168737.ico" height="32"></span>
+            <span class="brand-name">Youtube</span>
+            <span class="brand-name-sup">IN</span>
         </span>
 
         <span class="searching-tool">
@@ -52,14 +26,43 @@
         
         <span class="bi bi-mic-fill"></span>
         
-        <span>
+        <span class="create">
             <span class="bi bi-plus-lg"></span>
-            <span><b>Create</b></span>
+            <span>&nbsp;&nbsp;Create&nbsp;&nbsp;</b></span>
         </span>
         
-        <span class="bi bi-bell"><sup>9+</sup></span>
+        <span class="bi bi-bell"><sup class="notification">9+</sup></span>
         
-        <span><img src="public/images/ytprofilepic.jpg" height="25" class="profile-pic"></span>
+        <span><img src="public/images/ytprofilepic.jpg" height="30" class="profile-pic"></span>
+    </section>
+    
+    <!-- Navigation Section -->
+    <nav>
+        <div class="icons">
+            <div class="bi bi-house-door"></div>
+            <div class="text">Home</div>
+        </div>
+        <div class="icons">
+            <div class="bi bi-file-play"></div>
+            <div class="text">Shorts</div>
+        </div>
+        <div class="icons">
+            <div class="bi bi-collection-play"></div>
+            <div class="text">Subscription</div>
+        </div>
+        <div class="icons">
+            <div class="bi bi-person"></div>
+            <div class="text">You</div>
+        </div>
+    </nav>
+    
+    <!-- Youtube Banner -->
+    <section class="banner">
+        <img src="public/images/channels4_banner.jpg" height="100%" width="100%" class="img-banner">
+    </section>
+
+    <section>
+        
     </section>
 </body>
 </html>

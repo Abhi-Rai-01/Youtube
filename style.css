@@ -1,0 +1,132 @@
+body{
+    font-family: arial;
+    background-color: #121212;
+    color: white;
+}
+
+/* Header section */
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px 3px 5px 3px;
+    margin: -8px;
+    position: sticky;
+    top: 0;
+    background-color: #121212;
+}
+.bi-list{
+    font-size: 25px;
+}
+.youtube-branding{
+    margin-right: 60px;
+    display: flex;
+    align-items: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-weight: bold;
+}
+.youtube-logo{
+    padding-top: 4px;
+}
+.brand-name{
+    color: white;
+    margin-left: 0px;
+    font-size: 23px;
+}
+.brand-name-sup{
+    color: gray;
+    font-size: 10px;
+    margin-bottom: 28px;
+    margin-left: 3px;
+}
+.searching-tool{
+    padding: 10px 0px 10px 0px;
+    border-radius: 25px;
+}
+.search{
+    color: gray;
+    padding: 10px 470px 11px 15px;
+    border: 1px solid rgb(52, 52, 52);
+    border-right: unset;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+.bi-search{
+    padding: 10px 20px 11px 20px;
+    border: 1px solid rgb(52, 52, 52);
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: rgba(52, 52, 52, 0.4);
+}
+.bi-mic-fill{
+    font-size: 17px;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 50px;
+    margin-left: -10px;
+    background-color: rgba(52, 52, 52, 0.4);
+}
+.create{
+    background-color: rgba(52, 52, 52, 0.4);
+    padding: 6px;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+}
+.bi-plus-lg{
+    font-size: 20px;
+    padding-left: 3px;
+}
+.bi-bell{
+    font-size: 20px;
+}
+.bi-bell .notification{
+    position: absolute;
+    top: 10px;
+    left: 1165px;
+    font-size: 12px;
+    padding: 2px 4px 2px 4px;
+    border-radius: 25px;
+    background-color: red;
+}
+.profile-pic{
+    border-radius: 50%;
+}
+
+/* Navigation section */
+nav{
+    background-color: #121212;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 70px;
+    margin-left: -8px;
+    font-size: 20px;
+    float: left;
+    position: fixed;
+    margin-top: 8px;
+}
+.icons{
+    margin-top: 33px;
+}
+.bi-person{
+    border: 1.5px solid white;
+    width: 20px;
+    margin-left: 24px;
+    border-radius: 100%;
+}
+.text{
+    font-size: 11px;
+    margin-top: 5px;
+}
+
+
+.banner{
+    margin: 10px 150px 1000px 125px;
+    width: 1070px;
+}
+.img-banner{
+    border-radius: 15px;
+}
